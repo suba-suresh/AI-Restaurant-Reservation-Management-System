@@ -102,11 +102,25 @@
         }
         
         .workflow-image {
-            max-width: 100%;
+            max-width: 800px;
+            width: 100%;
             height: auto;
             border-radius: 10px;
             box-shadow: 0 8px 25px rgba(0,0,0,0.2);
-            margin: 20px 0;
+            margin: 20px auto;
+            display: block;
+        }
+        
+        @media (max-width: 900px) {
+            .workflow-image {
+                max-width: 90%;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .workflow-image {
+                max-width: 100%;
+            }
         }
         
         .features-grid {
@@ -356,10 +370,12 @@
                     ✅ Automated email notifications<br>
                     ✅ Error handling and validation
                 </div>
+                
+                <!-- Add your workflow image here -->
+                <img src="Final Workflow.png" alt="System Workflow Diagram" class="workflow-image">
+                
                 <p style="margin-top: 20px; font-style: italic; color: #666;">
-                  <img class="diagram" src= "Final Workflow.png" alt="Workflow Diagram "/>
                     *Workflow diagram shows the complete automation pipeline from initial webhook trigger to final email confirmation*
-                  
                 </p>
             </div>
         </div>
@@ -527,7 +543,7 @@
         <!-- Footer -->
         <div class="footer">
             <h3>🎯 Final Project Submission</h3>
-            <p>LONDON AI STUDIO - AI Expert Mentorship Program </p>
+            <p>AI Expert Mentorship Program</p>
             <p style="margin-top: 10px; opacity: 0.8;">
                 Demonstrating practical AI implementation with real-world business applications
             </p>

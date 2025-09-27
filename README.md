@@ -49,8 +49,7 @@ graph TD
 | **Voice Interface** | ElevenLabs AI Voice | Voice-to-text booking capability for phone reservations |
 | **Automation** | Zapier Webhooks | Workflow orchestration and data routing |
 | **Database** | Airtable | Cloud-based reservation storage and management |
-| **Communication** | Email Automation | Confirmation and notification system |
-| **Integration** | RESTful APIs | Seamless data exchange between services |
+| **Communication** | Email Automation | Confirmation and notification system 
 
 ## 🎭 AI Personality & Business Logic
 
